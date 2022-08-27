@@ -17,9 +17,10 @@
         }
         header {
             background-color: (35,44,70);
-            background-image: url(./img/communication.jpg);
+            background-image: url(./img/area\ de\ trabalho.jpg);
             background-position:center;
             background-position: cover;
+            background-size:auto;
             color: #eeeeee;
             padding: 30px;
         }
@@ -33,8 +34,7 @@
             font-size: 10;
         }
         body {
-            background-image: linear-gradient(to left, rgb(69, 152, 152), teal, rgb(2, 42, 42));
-
+            background-image: linear-gradient(to right, rgb(69, 152, 152), teal, rgb(2, 42, 42));
         }
         h3{
             text-decoration-line: underline;
@@ -42,7 +42,7 @@
         }
 
         nav{
-            color:black;
+            color:rgb(87, 84, 84);
         }
 
         header div {
@@ -82,28 +82,46 @@
             color:black;
             text-align: center;
         }
-        
+
+        section>div>h3 {
+            color:black;
+        }
+
+        section>div>p {
+            color:black;
+        }
+
+        footer>a {
+            padding: 30px;
+        }     
+        #perfil{
+            border-radius: 50%;
+        }   
     </style>
 </head>
 
 <body>
     <header>
         <div>
+            <div id="perfil">
 
-            <image src="./img/perfil2.jpg" alt="foto perfil" height="60px"></image>
+                <image src="./img/perfil2.png" alt="foto perfil" height="100"></image>
+            </div>
         
         </div>
         
         <h1>Patrick Antunes</h1>
         <h4>Progamandor WEB<br>Belford Roxo<br> Rio de Janeiro, Brasil</h4>
-            <img src="./img/icons8-facebook-novo-128.png" alt="logo facebook - com link para rede social  da pessoa"
+            <img src="./img/face-logo.png" alt="logo facebook"
             height="30">
 
-            <img src="./img/icons8-instagram-128.png" alt="logo instagram - com link para rede social da pessoa"
+            <img src="./img/insta-logo.png" alt="logo instagram"
             height="30">
 
-            <img src="./img/icons8-twitter-128.png" alt="logo instagram - com link para rede social da pessoa" height="30">
-        
+            <img src="./img/twitter-logo.png" alt="logo Twitter" height="30">
+           
+            <img src="./img/whats-logo.png" alt="logo Whatsapp" height="30">
+           
         </header>
         
         <div class="topnav">
@@ -116,10 +134,12 @@
     </ul>
 
     <section>
-        <h3>Projetos</h3>
-        <p>Curriculo</p>
-        <p>Vidraçaria</p>
-        <p>SPA</p>
+        <div>
+            <h3>Projetos</h3>
+            <p>Curriculo</p>
+            <p>Vidraçaria</p>
+            <p>SPA</p>
+        </div>
     </section>
 
     <section>
@@ -128,7 +148,7 @@
     </section>
 
     <footer>
-      <a href=https:"http://github.com/Antunespk" target:_top> Powered by  Antunespk</a>
+      <a href=https:"//github.com/Antunespk" target:_top> Powered by  Antunespk</a>
     </footer>
 
 </body>
