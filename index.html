@@ -46,6 +46,8 @@
         }
         #redes{
             display:inline-flex;
+            border-bottom: 5px;
+            margin: auto;
         }
         #perfil img{
             border-radius: 50%;
@@ -120,6 +122,15 @@
             margin:20px;
             align-items: center;
             justify-content: center;
+        
+        }
+        section{
+            width: 100%;
+            /*mobile*/
+            max-width:1200px;
+            /*desktop*/
+            margin: auto;
+            min-height: 250px;
         }
         section>div>h3 {
             color:black;
@@ -157,18 +168,18 @@
         
     <div id="redes">
 
-        <img src="./img/face-logo.png" alt="logo facebook"
-        height="30">
+        <a href="https://www.facebook.com/antunesduartepatrick"> <img src="./img/face-logo.png" alt="logo facebook"
+        height="40"> </a>
         
-        <img src="./img/insta-logo.png" alt="logo instagram"
-        height="30">
+        <a href="https://www.instagram.com/patrickduarte81/"><img src="./img/insta-logo.png" alt="logo instagram"
+        height="40"></a>
         
-        <img src="./img/twitter-logo.png" alt="logo Twitter" height="30">
+        <img src="./img/twitter-logo.png" alt="logo Twitter" height="40">
         
-        <img src="./img/whats-logo.png" alt="logo Whatsapp" height="30">
+        <a href="https://wa.me/5521968824829"><img src="./img/whats-logo.png" alt="logo Whatsapp" height="40"></a>
     </div>
          
-
+    <section>
         <div id="projetos">
             <h3>Projetos</h3>
             <div class="flex-container">
@@ -177,11 +188,12 @@
                 <a>SPA</a>
             </div>
         </div>
+    </section>
 
     <section>
         <div id="tecnologias">
         <h3>Tecnologias</h3>
-            <img src="./img/CSS.jpg" alt="css" height="60px">
+            <image src="./img/CSS.jpg" alt="css" height="60px">
                 
             <image src="./img/bootstrap.png" alt="bootstrap" height="60px">
                 
